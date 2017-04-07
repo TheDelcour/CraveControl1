@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+
+    <Button
+        android:id="@+id/button_bitter"
+        android:layout_width="145dp"
+        android:layout_height="120dp"
+        android:background="@drawable/button_1"
+        android:drawableTop="@mipmap/ic_launcher_round"
+        android:onClick="alternativeScreen"
+        android:text="@string/tastes_bitter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_what" />
+
+    <Button
+        android:id="@+id/button_umami"
+        android:layout_width="145dp"
+        android:layout_height="120dp"
+        android:background="@drawable/button_1"
+        android:drawableTop="@mipmap/ic_launcher_round"
+        android:onClick="alternativeScreen"
+        android:text="@string/tastes_umami"
+        app:layout_constraintRight_toLeftOf="@+id/text_what"
+        app:layout_constraintLeft_toRightOf="@+id/text_what"
+        app:layout_constraintHorizontal_bias="0.297"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_what" />
+
+    <TextView
+        android:id="@+id/text_what"
+        android:layout_width="363dp"
+        android:layout_height="52dp"
+        android:gravity="center"
+        android:hint="@string/top_text"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="25dp"
+        app:layout_constraintHorizontal_bias="0.523" />
+
+</android.support.constraint.ConstraintLayout>

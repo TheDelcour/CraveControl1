@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eth.cravecontrol.cravecontrol">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/CustomTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TypeOfFood_sweet">
+            android:label="@string/TypeOfFood">
+        </activity>
+        <activity android:name=".TypeOfFood_salty" />
+        <activity
+            android:name=".TypeOfFood_sour"
+            android:label="@string/title_activity_type_of_food_sour"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".TypeOfFood_greasy"
+            android:label="@string/title_activity_type_of_food_greasy"
+            android:theme="@style/CustomTheme" />
+        <activity android:name=".alternativeScreen" />
+        <activity android:name=".TypeOfFood_other"></activity>
+    </application>
+
+</manifest>

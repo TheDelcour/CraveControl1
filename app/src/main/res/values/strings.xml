@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">CraveControl</string>
+    <string name="top_text">Please enter what you are craving</string>
+
+    <string name="tastes_sweet">Sweet</string>
+    <string name="tastes_sour">Sour</string>
+    <string name="tastes_salty">Salty</string>
+    <string name="tastes_greasy">Greasy</string>
+    <string name="tastes_other">Other</string>
+    <string name="tastes_bitter">Bitter</string>
+    <string name="tastes_umami">Umami</string>
+
+    <string name="taste1_cake">Cake</string>
+    <string name="taste1_soft">Soft Drink</string>
+    <string name="taste1_candy">Candy</string>
+    <string name="taste1_choco">Chocolate</string>
+    <string name="taste1_ice">Ice Cream</string>
+    <string name="taste1_caramel">Caramel</string>
+    <string name="title_activity_type_of_food_sour">TypeOfFood_sour</string>
+    <string name="title_activity_type_of_food_greasy">TypeOfFood_greasy</string>
+</resources>

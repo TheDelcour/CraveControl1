@@ -1,0 +1,26 @@
+Index: app/src/main/java/com/eth/cravecontrol/cravecontrol/MainActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/eth/cravecontrol/cravecontrol/MainActivity.java	(revision )
++++ app/src/main/java/com/eth/cravecontrol/cravecontrol/MainActivity.java	(revision )
+@@ -19,15 +19,15 @@
+     }
+ 
+     public void taste_salty(View view) {
+-        Intent intent = new Intent(MainActivity.this, TypeOfFood_sweet.class);
++        Intent intent = new Intent(MainActivity.this, TypeOfFood_salty.class);
+         startActivity(intent);
+     }
+     public void taste_sour(View view) {
+-        Intent intent = new Intent(MainActivity.this, TypeOfFood_sweet.class);
++        Intent intent = new Intent(MainActivity.this, TypeOfFood_sour.class);
+         startActivity(intent);
+     }
+     public void taste_greasy(View view) {
+-        Intent intent = new Intent(MainActivity.this, TypeOfFood_sweet.class);
++        Intent intent = new Intent(MainActivity.this, TypeOfFood_greasy.class);
+         startActivity(intent);
+     }
+ 
