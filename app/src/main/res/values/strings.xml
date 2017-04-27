@@ -13,9 +13,30 @@
     <string name="taste1_cake">Cake</string>
     <string name="taste1_soft">Soft Drink</string>
     <string name="taste1_candy">Candy</string>
-    <string name="taste1_choco">Chocolate</string>
+    <string name="taste1_choco">Milk Chocolate</string>
     <string name="taste1_ice">Ice Cream</string>
     <string name="taste1_caramel">Caramel</string>
+    <string name="taste1_sourcandy">Sour Candy</string>
+    <string name="taste1_pizza">Pizza</string>
+    <string name="taste1_fries">French Fries</string>
+    <string name="taste1_nuggets">Nuggets</string>
+    <string name="taste1_kebabmix">Kebab Mix</string>
+    <string name="taste1_pita">Pita Sandwich</string>
+    <string name="taste1_chips">Chips</string>
+    <string name="taste1_pretzel">Pretzel</string>
     <string name="title_activity_type_of_food_sour">TypeOfFood_sour</string>
     <string name="title_activity_type_of_food_greasy">TypeOfFood_greasy</string>
+
+    <string name="Header_altscreen">You have chosen:</string>
+    <string name="Header_altscreen1">Healthy alternative:</string>
+    <string name="Header_altscreen2">Did you choose the healthy alternative?</string>
+    <string name="Calories">Calories: </string>
+    <string name="Carbs">Carbs: </string>
+    <string name="CarbsSugar">CarbsSugar: </string>
+    <string name="Fat">Fat: </string>
+    <string name="Energy">Energy: </string>
+    <string name="Info">Info: </string>
+    <string name="button_yes">Yes</string>
+    <string name="button_no">No</string>
+
 </resources>

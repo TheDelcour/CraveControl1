@@ -16,20 +16,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TypeOfFood_sweet">
+        <activity android:name=".TypeOfFood.TypeOfFood_sweet">
             android:label="@string/TypeOfFood">
         </activity>
-        <activity android:name=".TypeOfFood_salty" />
+        <activity android:name=".TypeOfFood.TypeOfFood_salty" />
         <activity
-            android:name=".TypeOfFood_sour"
+            android:name=".TypeOfFood.TypeOfFood_sour"
             android:label="@string/title_activity_type_of_food_sour"
             android:theme="@style/CustomTheme" />
         <activity
-            android:name=".TypeOfFood_greasy"
+            android:name=".TypeOfFood.TypeOfFood_greasy"
             android:label="@string/title_activity_type_of_food_greasy"
             android:theme="@style/CustomTheme" />
-        <activity android:name=".alternativeScreen" />
-        <activity android:name=".TypeOfFood_other"></activity>
+        <activity android:name=".TypeOfFood.TypeOfFood_other" />
+        <activity android:name=".TypeOfFood.AltScreen"></activity>
     </application>
 
 </manifest>

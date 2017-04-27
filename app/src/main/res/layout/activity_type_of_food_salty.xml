@@ -9,13 +9,12 @@
 
 
     <Button
-        android:id="@+id/button_cake"
+        android:id="@+id/button_pretzel"
         android:layout_width="145dp"
         android:layout_height="120dp"
         android:background="@drawable/button_1"
         android:drawableTop="@mipmap/ic_launcher_round"
-        android:onClick="alternativeScreen"
-        android:text="@string/taste1_cake"
+        android:text="@string/taste1_pretzel"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.092"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -24,13 +23,12 @@
         app:layout_constraintVertical_bias="0.219" />
 
     <Button
-        android:id="@+id/button_soft"
+        android:id="@+id/button_chips"
         android:layout_width="145dp"
         android:layout_height="120dp"
         android:background="@drawable/button_1"
         android:drawableTop="@mipmap/ic_launcher_round"
-        android:onClick="alternativeScreen"
-        android:text="@string/taste1_soft"
+        android:text="@string/taste1_chips"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.912"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -38,69 +36,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.219" />
 
-    <Button
-        android:id="@+id/button_candy"
-        android:layout_width="145dp"
-        android:layout_height="120dp"
-        android:layout_marginTop="8dp"
-        android:background="@drawable/button_1"
-        android:drawableTop="@mipmap/ic_launcher_round"
-        android:onClick="alternativeScreen"
-        android:text="@string/taste1_candy"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.912"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_caramel"
-        app:layout_constraintVertical_bias="0.187" />
-
-    <Button
-        android:id="@+id/button_choco"
-        android:layout_width="145dp"
-        android:layout_height="120dp"
-        android:layout_marginTop="8dp"
-        android:background="@drawable/button_1"
-        android:drawableTop="@mipmap/ic_launcher_round"
-        android:onClick="alternativeScreen"
-        android:text="@string/taste1_choco"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.092"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_ice"
-        app:layout_constraintVertical_bias="0.187" />
-
-    <Button
-        android:id="@+id/button_caramel"
-        android:layout_width="145dp"
-        android:layout_height="120dp"
-        android:layout_marginTop="8dp"
-        android:background="@drawable/button_1"
-        android:drawableTop="@mipmap/ic_launcher_round"
-        android:onClick="alternativeScreen"
-        android:text="@string/taste1_caramel"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.912"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_soft"
-        app:layout_constraintVertical_bias="0.058" />
-
-    <Button
-        android:id="@+id/button_ice"
-        android:layout_width="145dp"
-        android:layout_height="120dp"
-        android:layout_marginTop="8dp"
-        android:background="@drawable/button_1"
-        android:drawableTop="@mipmap/ic_launcher_round"
-        android:onClick="alternativeScreen"
-        android:text="@string/taste1_ice"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.092"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_cake"
-        app:layout_constraintVertical_bias="0.060000002" />
 
     <TextView
         android:id="@+id/text_what"
